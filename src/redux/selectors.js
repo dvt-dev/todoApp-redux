@@ -1,6 +1,6 @@
 import { createSelector } from "reselect";
 
-export const searchTextSelector = (state) => state.filter.searchText;
+export const searchTextSelector = (state) => state.filters.searchText;
 export const todoListSelector = (state) => state.todoList;
 
 // export const todoListSelector = (state) => {
